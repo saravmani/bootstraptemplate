@@ -1,22 +1,22 @@
-/* Custom styles for Bootstrap template */
+/* Custom styles for Bootstrap template - Gray Theme */
 
 /* Theme colors */
 :root {
-  --theme-primary: #0d6efd;
-  --theme-primary-dark: #0a58ca;
-  --theme-primary-light: #cfe2ff;
+  --theme-primary: #6c757d; /* Medium gray as primary color */
+  --theme-primary-dark: #495057; /* Darker gray for hover states */
+  --theme-primary-light: #e9ecef; /* Light gray for backgrounds */
   --theme-white: #ffffff;
   --theme-light: #f8f9fa;
   --theme-gray: #6c757d;
   --theme-border: #dee2e6;
-  --theme-sidebar-active: #e7f1ff;
-  --theme-sidebar-hover: #f1f8ff;
+  --theme-sidebar-active: #e9ecef; /* Light gray for active sidebar items */
+  --theme-sidebar-hover: #f1f1f1; /* Subtle hover effect */
 }
 
 body {
     padding-top: 56px; /* Space for fixed navbar */
     background-color: var(--theme-white);
-    color: #212529;
+    color: #343a40; /* Slightly darker text for better contrast */
 }
 
 /* Theme Styling */
@@ -158,7 +158,7 @@ body {
 
 #sidebar .nav-link.active {
     background-color: var(--theme-sidebar-active);
-    color: var(--theme-primary);
+    color: var(--theme-primary-dark); /* Slightly darker for better contrast */
     font-weight: 600;
 }
 
